@@ -3,11 +3,11 @@ function Dog(name) {
     this.name = name;
 
 };
-Dog.prototype.eat = function() {
-    this.stomach.push(cat)
+Dog.prototype.eat = function(cat) {
+    this.stomach.push(cat);
 };
 Dog.prototype.hi = function() {
-    console.log('I am' + this.name )
+    console.log('I am' + this.name );
 };
 
 module.exports = Dog;
